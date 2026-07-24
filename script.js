@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   SCOREBOARD NUMBERS — edit these 5 values to update the site.
+   SCOREBOARD NUMBERS — edit these 4 values to update the site.
    After editing, save this file and re-upload it to your repo.
    updatedDate is just a label shown to visitors — type it however
    you want it to read (e.g. "Jul 2026" or "July 24, 2026").
@@ -9,7 +9,6 @@ const SCOREBOARD_DATA = {
   showRate: 78,
   calls: 310,
   cash: 1200,        // enter in thousands, e.g. 1200 shows as "$1.2M"
-  industries: 9,
   updatedDate: 'Jul 2026'
 };
 /* ══════════════════════════════════════════════════════════════ */
