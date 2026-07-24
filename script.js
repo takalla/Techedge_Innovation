@@ -147,7 +147,7 @@ const DEFAULTS = { closeRate: 42, showRate: 78, calls: 310, cash: 1200, industri
     const pass = offer >= MIN_OFFER && commission >= MIN_COMMISSION;
 
     if(pass){
-      fitResult.textContent = "Good fit. Scroll down to grab a time on the calendar.";
+      fitResult.textContent = "Let's Talk. Scroll down to grab a time on the calendar.";
       fitResult.className = 'fit-result show pass';
       fitFormBox.querySelectorAll('input').forEach(i=> i.disabled = true);
       fitSubmit.disabled = true;
